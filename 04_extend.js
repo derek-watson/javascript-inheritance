@@ -37,7 +37,7 @@ function lionFactory() {
 // ---- test -------------
 
 var cat = catFactory()
-var lion = new lionFactory()
+var lion = lionFactory()
 
 console.log(cat.say())
 console.log(lion.say())
